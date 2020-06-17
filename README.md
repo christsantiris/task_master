@@ -11,3 +11,12 @@ to set up db:
 in terminal run python3
 from app import db
 db.create_all()
+
+to deploy: 
+pip3 install gunicorn
+pip freeze > requirements.txt 
+heroku create crudtaskmaster
+git push heroku master
+
+
+https://crudtaskmaster.herokuapp.com/
