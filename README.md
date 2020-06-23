@@ -1,4 +1,4 @@
-set up environment:
+`set up environment:
 pip3 install virtualenv
 virtualenv env
 source env/bin/activate
@@ -16,7 +16,7 @@ to deploy:
 pip3 install gunicorn
 pip freeze > requirements.txt 
 heroku create crudtaskmaster
-git push heroku master
+git push heroku master`
 
 
 https://crudtaskmaster.herokuapp.com/
