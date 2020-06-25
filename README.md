@@ -1,4 +1,4 @@
-## set up environment:
+## set up environment and run project:
 ```pip3 install virtualenv
 virtualenv env
 source env/bin/activate
